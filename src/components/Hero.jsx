@@ -1,6 +1,4 @@
-// const Hero = (props) => {
-// const Hero = ({title, subtitle}) => {
-const Hero = ({ title="Become a React Dev", subtitle="Find the React job that fits your skills and needs" }) => {
+const Hero = ({ title="Become a Developer", subtitle="Find the job that fits your skills and needs" }) => {
   return (
     <>
       <section className="bg-indigo-700 py-20 mb-4">
@@ -11,13 +9,9 @@ const Hero = ({ title="Become a React Dev", subtitle="Find the React job that fi
             <h1
               className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
             >
-              {/* Become a React Dev */}
-              {/* {props.title} */}
               {title}
             </h1>
             <p className="my-4 text-xl text-white">
-              {/* Find the React job that fits your skills and needs */}
-              {/* {props.subtitle} */}
               {subtitle}
             </p>
           </div>
